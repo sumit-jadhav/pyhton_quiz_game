@@ -41,4 +41,3 @@ if answer.lower()=="power supply unit":
 else: print("incorrect")
 
 print("You got "+str(score)+"question correct")
-
