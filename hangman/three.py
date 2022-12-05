@@ -19,7 +19,8 @@ while not end_of_game:
         letter=chosen_word[position]
         if letter == guess:
             display[position]=guess
-
+        else:
+            print("The guess is Wrong ")
 
     print(display)
 
